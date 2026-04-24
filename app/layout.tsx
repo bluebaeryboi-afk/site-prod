@@ -1,6 +1,7 @@
 // app/layout.tsx
 import type { Metadata } from 'next'
 import { Syne, Space_Mono, DM_Sans } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const syne = Syne({
@@ -35,7 +36,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${syne.variable} ${dmSans.variable} ${spaceMono.variable}`}>
-      <body className="bg-roblox-dark text-white antialiased">{children}</body>
+      <body className="bg-roblox-dark text-white antialiased">
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
