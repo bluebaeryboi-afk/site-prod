@@ -23,7 +23,7 @@ export default function Nav() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-roblox-red rounded flex items-center justify-center glow-red">
-            <span className="font-display font-bold text-sm">R</span>
+            <span className="font-display font-bold text-sm">B</span>
           </div>
           <span className="font-display font-bold text-lg tracking-tight">
             Blue Baery<span className="text-roblox-red">.</span>
