@@ -26,7 +26,7 @@ export default function Nav() {
             <span className="font-display font-bold text-sm">R</span>
           </div>
           <span className="font-display font-bold text-lg tracking-tight">
-            DevCoach<span className="text-roblox-red">.</span>
+            Blue Baery<span className="text-roblox-red">.</span>
           </span>
         </div>
 
@@ -40,7 +40,7 @@ export default function Nav() {
 
         {/* CTA */}
         <a
-          href="https://tally.so/r/kd0A2Z"
+          href="https://cal.com/bluebaery/45min"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-roblox-red hover:bg-roblox-red/90 text-white font-body font-medium text-sm px-5 py-2.5 rounded-lg transition-all duration-200 glow-red"

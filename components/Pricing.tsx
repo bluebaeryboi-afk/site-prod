@@ -41,7 +41,7 @@ export default function Pricing() {
                   Rescheduling available up to 24 hours before your session.
                 </p>
                 <a
-                  href="https://tally.so/r/kd0A2Z"
+                  href="https://cal.com/bluebaery/45min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center bg-roblox-red hover:bg-roblox-red/90 text-white font-body font-medium text-base px-8 py-4 rounded-xl transition-all duration-200 glow-red"
