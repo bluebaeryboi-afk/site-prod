@@ -5,7 +5,7 @@ import { useState } from 'react'
 const faqs = [
   {
     q: 'What level of experience do I need?',
-    a: 'Any level! I work with complete beginners (never opened Roblox Studio) all the way to developers with existing games who want to optimize. Just tell me where you are in your booking form.',
+    a: 'Any level! I work with complete beginners all the way to developers with existing games who want to optimize. Just tell me where you are at in the application form.',
   },
   {
     q: 'What platform do we use for the session?',
@@ -13,23 +13,23 @@ const faqs = [
   },
   {
     q: 'What if I need to cancel or reschedule?',
-    a: 'No problem — just reschedule at least 24 hours before your session and I\'ll find you a new time at no extra charge. Cancellations within 24 hours are non-refundable.',
+    a: 'No problem — just reschedule at least 24 hours before your session and I\'ll find you a new time.',
   },
   {
-    q: 'How do I pay?',
-    a: 'Payment is collected upfront through Stripe when you book — it\'s fully secure and supports credit/debit cards. Your slot is confirmed immediately after payment.',
+    q: 'Do I get access to your code?',
+    a: 'Yes, eligable students can gain full access to my library of proven game code.',
   },
   {
     q: 'Can I book multiple sessions?',
-    a: 'Yes, and if you want ongoing mentorship (weekly sessions) reach out via email first — I offer bundle rates for committed students.',
+    a: 'Yes, the first onboarding call is used to make sure we\'re a match for ongoing mentorship (weekly sessions)',
   },
   {
-    q: 'What\'s the free 15-minute discovery call?',
-    a: 'Before your paid session, I offer an optional free 15-minute call to understand your goals, your current project, and make sure we\'re a good fit. It\'s not required but recommended for first-timers.',
+    q: 'What\'s the 15-minute discovery call?',
+    a: 'I offer a free 15-minute call to understand your goals, your current project, and make sure we\'re a good fit.',
   },
   {
     q: 'Do you write code for me, or teach me?',
-    a: 'Both, depending on what you need. Sometimes we\'ll pair-program live. Sometimes I\'ll review your code and explain improvements. You drive the agenda.',
+    a: 'Both, depending on what you need. Sometimes we\'ll pair-program live. Sometimes I\'ll review your code and explain improvements. You can drive the agenda.',
   },
 ]
 

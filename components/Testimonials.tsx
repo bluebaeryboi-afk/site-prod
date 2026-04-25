@@ -1,45 +1,24 @@
 // components/Testimonials.tsx
 const testimonials = [
   {
-    name: 'Alex R.',
-    handle: '@alexdev_rblx',
-    text: 'I had spaghetti code everywhere. After one session my DataStore architecture was completely refactored and I finally understand how to structure a real project. 10/10.',
-    game: 'Tower Defense Simulator Clone',
-    rating: 5,
-  },
-  {
-    name: 'Maya K.',
-    handle: '@mayabuilds',
-    text: 'Went from 200 daily players to 8,000 in 3 weeks after implementing the SEO and thumbnail tips. The ROI on this session was insane.',
-    game: 'Roleplay City',
+    name: 'Kieran A.',
+    handle: '@RequiredModule',
+    text: 'Went from 200 daily players to 8,000 in 2 weeks after implementing the tips. The ROI on this session was insane.',
+    game: 'RNG Game Owner',
     rating: 5,
   },
   {
     name: 'Jordan T.',
     handle: '@jt_scripts',
-    text: 'I was completely lost on monetization. Now I have a full gamepass system that converts at 4%. This paid for itself in the first week.',
+    text: 'I was completely lost on monetization. Now I have a full gamepass system that converts at 4%. This paid off in the first week!',
     game: 'Obby Madness',
     rating: 5,
   },
   {
-    name: 'Sam W.',
+    name: 'Sammy W.',
     handle: '@samdevelops',
-    text: 'Super patient with beginners. I barely knew what a RemoteEvent was. By the end of our session I had a working inventory system. Mind blown.',
+    text: 'I had bugs everywhere. After one session my architecture was completely refactored and I finally understand how to structure a real project. 10/10.',
     game: 'Fantasy RPG',
-    rating: 5,
-  },
-  {
-    name: 'Chris P.',
-    handle: '@cpgamestudio',
-    text: 'The game design advice alone was worth it. I had features players didn\'t care about and was missing the ones that drive retention. Total game changer.',
-    game: 'Racing World',
-    rating: 5,
-  },
-  {
-    name: 'Riley M.',
-    handle: '@rileymakesgames',
-    text: 'Honest, no-BS feedback on my game. Told me exactly what wasn\'t working and why. Booked a second session the same day.',
-    game: 'Simulator Game',
     rating: 5,
   },
 ]
@@ -91,7 +70,7 @@ export default function Testimonials() {
                 </div>
                 <div>
                   <div className="font-body font-medium text-sm text-white">{t.name}</div>
-                  <div className="font-mono text-xs text-white/30">{t.game}</div>
+                  <div className="font-mono text-xs text-white/30">{t.handle}</div>
                 </div>
               </div>
             </div>
