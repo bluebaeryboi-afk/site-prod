@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="w-7 h-7 bg-roblox-red rounded flex items-center justify-center">
-              <span className="font-display font-bold text-xs">R</span>
+              <span className="font-display font-bold text-xs">B</span>
             </div>
             <span className="font-display font-bold text-base tracking-tight">
               Blue Baery<span className="text-roblox-red">.</span>
