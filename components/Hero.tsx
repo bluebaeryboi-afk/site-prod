@@ -52,7 +52,7 @@ export default function Hero() {
         {/* Social proof strip */}
         <div className="mt-16 flex items-center justify-center gap-8 flex-wrap">
           {[
-            { value: '250M+', label: 'Robux Earned' },
+            { value: '150M+', label: 'Robux Earned' },
             { value: '50+', label: 'Games Shipped' },
             { value: '200+', label: 'Sessions Taught' },
           ].map((stat) => (
