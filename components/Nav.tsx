@@ -40,7 +40,7 @@ export default function Nav() {
 
         {/* CTA */}
         <a
-          href="https://cal.com/bluebaery/45min"
+          href="https://cal.com/bluebaery/60min"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-roblox-red hover:bg-roblox-red/90 text-white font-body font-medium text-sm px-5 py-2.5 rounded-lg transition-all duration-200 glow-red"

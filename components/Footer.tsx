@@ -26,7 +26,7 @@ export default function Footer() {
 
           {/* CTA */}
           <a
-            href="https://cal.com/bluebaery/45min"
+            href="https://cal.com/bluebaery/60min"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-roblox-red/10 hover:bg-roblox-red/20 border border-roblox-red/30 text-roblox-red font-body text-sm font-medium px-5 py-2.5 rounded-lg transition-all duration-200"

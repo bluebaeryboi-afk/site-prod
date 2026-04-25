@@ -2,7 +2,7 @@
 export default function Stats() {
   const stats = [
     { value: '5+', label: 'Years in Game Dev', color: 'text-roblox-red' },
-    { value: '500M+', label: 'Robux Earned', color: 'text-roblox-gold' },
+    { value: '150M+', label: 'Robux Earned', color: 'text-roblox-gold' },
     { value: '250K+', label: 'Peak Daily Players', color: 'text-roblox-neon' },
     { value: '24hr', label: 'Max Response Time', color: 'text-roblox-accent' },
   ]

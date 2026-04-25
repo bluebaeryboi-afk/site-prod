@@ -64,7 +64,7 @@ export default function WhatYouLearn() {
           </div>
           <h2 className="font-display font-extrabold text-4xl md:text-6xl text-white mb-4">
             Everything You Need<br />
-            <span className="text-white/30">to Ship</span>
+            <span className="text-white/30">to Succeed</span>
           </h2>
           <p className="font-body text-white/50 max-w-xl mx-auto">
             Every session is tailored to you. Pick what matters most or let me build a custom roadmap.

@@ -80,7 +80,7 @@ export default function About() {
 
             <div className="mt-10">
               <a
-                href="https://cal.com/bluebaery/45min"
+                href="https://cal.com/bluebaery/60min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-white/5 hover:bg-white/10 border border-roblox-border hover:border-roblox-red/50 text-white font-body font-medium px-6 py-3 rounded-xl transition-all duration-200"
