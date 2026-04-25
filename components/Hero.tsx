@@ -37,7 +37,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="group relative bg-roblox-red hover:bg-roblox-red/90 text-white font-body font-medium text-base px-8 py-4 rounded-xl transition-all duration-200 glow-red w-full sm:w-auto"
           >
-            <span className="relative z-10">Book Your Session — {process.env.NEXT_PUBLIC_SESSION_PRICE_DISPLAY ?? '$75'}</span>
+            <span className="relative z-10">Book Your Session</span>
             <div className="absolute inset-0 bg-gradient-to-r from-roblox-red to-roblox-accent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
           </a>
           <a

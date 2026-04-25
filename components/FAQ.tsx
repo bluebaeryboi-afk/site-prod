@@ -17,15 +17,11 @@ const faqs = [
   },
   {
     q: 'How do I pay?',
-    a: 'Payment is collected upfront through Stripe when you book — it\'s fully secure and supports credit/debit cards. Your slot is confirmed immediately after payment.',
+    a: 'Payment is collected upfront when you book — it\'s fully secure and supports credit/debit cards. Your slot is confirmed immediately after payment.',
   },
   {
     q: 'Can I book multiple sessions?',
     a: 'Yes, and if you want ongoing mentorship (weekly sessions) reach out via email first — I offer bundle rates for committed students.',
-  },
-  {
-    q: 'What\'s the free 15-minute discovery call?',
-    a: 'Before your paid session, I offer an optional free 15-minute call to understand your goals, your current project, and make sure we\'re a good fit. It\'s not required but recommended for first-timers.',
   },
   {
     q: 'Do you write code for me, or teach me?',

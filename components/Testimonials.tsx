@@ -16,7 +16,7 @@ const testimonials = [
   },
   {
     name: 'Jordan T.',
-    handle: '@jt_scripts',
+    handle: '@jt_rblx',
     text: 'I was completely lost on monetization. Now I have a full gamepass system that converts at 4%. This paid for itself in the first week.',
     game: 'Obby Madness',
     rating: 5,

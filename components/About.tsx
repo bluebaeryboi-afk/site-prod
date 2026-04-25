@@ -18,10 +18,7 @@ export default function About() {
               {/* Avatar placeholder — replace src with your image */}
               <div className="relative w-72 h-72 bg-roblox-muted rounded-3xl border border-roblox-border overflow-hidden flex items-center justify-center">
                 {/* Replace this div with: <Image src="/your-photo.jpg" alt="Your Name" fill className="object-cover" /> */}
-                <div className="text-center">
-                  <div className="text-6xl mb-3">👾</div>
-                  <div className="font-mono text-xs text-white/30">YOUR PHOTO HERE</div>
-                </div>
+                <Image src="/avatar.jpg" alt="Your Name" fill className="object-cover" />
 
                 {/* Scanlines overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-roblox-dark/50 to-transparent" />
