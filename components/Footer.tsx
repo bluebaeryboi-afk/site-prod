@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="font-display font-bold text-xs">R</span>
             </div>
             <span className="font-display font-bold text-base tracking-tight">
-              Blue Baery<span className="text-roblox-red">.</span>
+              DevCoach<span className="text-roblox-red">.</span>
             </span>
           </div>
 
@@ -31,17 +31,17 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="bg-roblox-red/10 hover:bg-roblox-red/20 border border-roblox-red/30 text-roblox-red font-body text-sm font-medium px-5 py-2.5 rounded-lg transition-all duration-200"
           >
-            Apply Now →
+            Book a Session →
           </a>
         </div>
 
         <div className="mt-8 pt-8 border-t border-roblox-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-body text-xs text-white/20">
-            © {new Date().getFullYear()} Bluebaeryboi. Not affiliated with Roblox Corporation.
+            © {new Date().getFullYear()} DevCoach. Not affiliated with Roblox Corporation.
           </p>
-          {/*<p className="font-mono text-xs text-white/20">
+          <p className="font-mono text-xs text-white/20">
             Bookings via Tally
-          </p> */}
+          </p>
         </div>
       </div>
     </footer>

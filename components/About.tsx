@@ -47,30 +47,29 @@ export default function About() {
             </h2>
             <div className="space-y-4 font-body text-white/60 leading-relaxed">
               <p>
-                I&apos;ve been building on Roblox since 2024. In that time I&apos;ve shipped over 50 games,
-                reached 8000 peak CCU, and generated over 100M Robux from my work.
+                I&apos;ve been building on Roblox since [year]. In that time I&apos;ve shipped [X] games,
+                reached [Y] peak players, and generated real Robux revenue from my work.
               </p>
               <p>
                 I&apos;ve made every mistake in the book — spaghetti code that crashed at 100 players,
-                games that launched to crickets, monetization that fell flat. I fixed all of it,
-                and now I teach developers how to skip all the painful parts.
+                games that launched to crickets, monetization that felt predatory. I fixed all of it,
+                and now I teach developers how to skip that painful part.
               </p>
               <p>
                 My approach is hands-on and practical. We screen-share, we code together,
-                we review your actual game. I even share the code I use in my games that are
-                hitting thousands of concurrent users every day.
+                we review your actual game. No theory lectures.
               </p>
             </div>
 
             {/* Credentials */}
             <div className="mt-8 grid grid-cols-2 gap-3">
               {[
-                'Roblox Studio Expertise',
-                'Plug & Play Code Modules',
-                'Game Architecture',
+                'Roblox Studio Expert',
+                'Lua & TypeScript',
+                'DataStore Architecture',
                 'Monetization Strategy',
-                'Game Design',
-                'Published 50+ Games',
+                'Game Design Systems',
+                'Published [X] Games',
               ].map((cred) => (
                 <div key={cred} className="flex items-center gap-2 font-body text-sm text-white/60">
                   <span className="text-roblox-neon text-glow-neon">✓</span>

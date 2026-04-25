@@ -23,10 +23,10 @@ export default function Nav() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-roblox-red rounded flex items-center justify-center glow-red">
-            <span className="font-display font-bold text-sm">B</span>
+            <span className="font-display font-bold text-sm">R</span>
           </div>
           <span className="font-display font-bold text-lg tracking-tight">
-            Blue Baery<span className="text-roblox-red">.</span>
+            DevCoach<span className="text-roblox-red">.</span>
           </span>
         </div>
 
@@ -34,7 +34,7 @@ export default function Nav() {
         <div className="hidden md:flex items-center gap-8 font-body text-sm text-white/60">
           <a href="#learn" className="hover:text-white transition-colors">What You&apos;ll Learn</a>
           <a href="#about" className="hover:text-white transition-colors">About</a>
-          {/*<a href="#pricing" className="hover:text-white transition-colors">Pricing</a>*/}
+          <a href="#pricing" className="hover:text-white transition-colors">Pricing</a>
           <a href="#faq" className="hover:text-white transition-colors">FAQ</a>
         </div>
 
@@ -45,7 +45,7 @@ export default function Nav() {
           rel="noopener noreferrer"
           className="bg-roblox-red hover:bg-roblox-red/90 text-white font-body font-medium text-sm px-5 py-2.5 rounded-lg transition-all duration-200 glow-red"
         >
-          Apply Now
+          Book a Session
         </a>
       </div>
     </nav>

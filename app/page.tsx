@@ -14,10 +14,10 @@ export default function Home() {
     <main className="relative">
       <Nav />
       <Hero />
-      <WhatYouLearn />
       <Stats />
+      <WhatYouLearn />
       <About />
-      {/* <Pricing /> */}
+      <Pricing />
       <Testimonials />
       <FAQ />
       <Footer />

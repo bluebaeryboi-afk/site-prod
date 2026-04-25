@@ -2,24 +2,24 @@
 const topics = [
   {
     icon: '⚡',
-    title: 'Proven Code',
-    desc: 'Gain access to my game code, proven to earn 100M+ Robux. Use clean, performant, bug-free code from the start.',
-    tags: ['Frameworks', 'Functions', 'GUI', 'Tweens'],
+    title: 'Lua Scripting',
+    desc: 'Master the fundamentals of Lua and Roblox-specific APIs. Write clean, performant, bug-free code from the start.',
+    tags: ['Variables', 'Functions', 'OOP', 'Remote Events'],
     color: 'border-roblox-red/30 hover:border-roblox-red/60',
     glow: 'roblox-red',
   },
-  //{
-   // icon: '🎮',
-   // title: 'Game Design',
-   // desc: 'Design compelling game loops, retention mechanics, and progression systems that keep players coming back.',
-  //  tags: ['Core Loop', 'Retention', 'UX', 'Balancing'],
-  //  color: 'border-roblox-gold/30 hover:border-roblox-gold/60',
-  //  glow: 'roblox-gold',
-  //},
+  {
+    icon: '🎮',
+    title: 'Game Design',
+    desc: 'Design compelling game loops, retention mechanics, and progression systems that keep players coming back.',
+    tags: ['Core Loop', 'Retention', 'UX', 'Balancing'],
+    color: 'border-roblox-gold/30 hover:border-roblox-gold/60',
+    glow: 'roblox-gold',
+  },
   {
     icon: '💰',
     title: 'Monetization',
-    desc: 'Implement Robux monetization that converts well. Gamepasses, developer products, and subscription models.',
+    desc: 'Implement ethical Robux monetization that converts well. Gamepasses, developer products, and subscription models.',
     tags: ['Gamepasses', 'Dev Products', 'VIP', 'Merch'],
     color: 'border-roblox-neon/30 hover:border-roblox-neon/60',
     glow: 'roblox-neon',
@@ -32,22 +32,22 @@ const topics = [
     color: 'border-roblox-accent/30 hover:border-roblox-accent/60',
     glow: 'roblox-accent',
   },
-  //{
-  //  icon: '🏗️',
-  //  title: 'Architecture',
-  //  desc: 'Structure your codebase for scale. Module scripts, services, data stores — build games that don\'t break at 1000 players.',
-  //  tags: ['DataStore', 'Modules', 'Services', 'Profiling'],
-  //  color: 'border-purple-500/30 hover:border-purple-500/60',
-  //  glow: 'purple-500',
-  //},
-  //{
-  //  icon: '🎨',
-  //  title: 'Building & UI',
-  //  desc: 'Create polished environments and slick GUIs. From terrain sculpting to custom HUD design with Tween animations.',
-  //  tags: ['Terrain', 'Unions', 'GUI', 'Tweens'],
-  //  color: 'border-blue-500/30 hover:border-blue-500/60',
-  //  glow: 'blue-500',
-  //},
+  {
+    icon: '🏗️',
+    title: 'Architecture',
+    desc: 'Structure your codebase for scale. Module scripts, services, data stores — build games that don\'t break at 1000 players.',
+    tags: ['DataStore', 'Modules', 'Services', 'Profiling'],
+    color: 'border-purple-500/30 hover:border-purple-500/60',
+    glow: 'purple-500',
+  },
+  {
+    icon: '🎨',
+    title: 'Building & UI',
+    desc: 'Create polished environments and slick GUIs. From terrain sculpting to custom HUD design with Tween animations.',
+    tags: ['Terrain', 'Unions', 'GUI', 'Tweens'],
+    color: 'border-blue-500/30 hover:border-blue-500/60',
+    glow: 'blue-500',
+  },
 ]
 
 export default function WhatYouLearn() {
@@ -64,7 +64,7 @@ export default function WhatYouLearn() {
           </div>
           <h2 className="font-display font-extrabold text-4xl md:text-6xl text-white mb-4">
             Everything You Need<br />
-            <span className="text-white/30">to Succeed</span>
+            <span className="text-white/30">to Ship</span>
           </h2>
           <p className="font-body text-white/50 max-w-xl mx-auto">
             Every session is tailored to you. Pick what matters most or let me build a custom roadmap.

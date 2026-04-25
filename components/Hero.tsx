@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="inline-flex items-center gap-2 bg-roblox-card border border-roblox-border rounded-full px-4 py-2 mb-8">
           <span className="w-2 h-2 bg-roblox-neon rounded-full animate-pulse" />
           <span className="font-mono text-xs text-white/70 tracking-widest uppercase">
-            Now Accepting Applications
+            Now Taking Bookings
           </span>
         </div>
 
@@ -25,8 +25,7 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="font-body text-lg md:text-xl text-white/60 max-w-2xl mx-auto mb-10 leading-relaxed">
-          {/* 1-on-1 coaching for Roblox developers.*/}
-          Work with a proven Roblox developer. Whether you&apos;re just starting with Lua or
+          1-on-1 coaching for Roblox developers. Whether you&apos;re just starting with Lua or
           trying to scale to 100K daily players — I&apos;ll help you get there faster.
         </p>
 
@@ -38,14 +37,14 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="group relative bg-roblox-red hover:bg-roblox-red/90 text-white font-body font-medium text-base px-8 py-4 rounded-xl transition-all duration-200 glow-red w-full sm:w-auto"
           >
-            <span className="relative z-10">Apply Now — {process.env.NEXT_PUBLIC_SESSION_PRICE_DISPLAY ?? '$75'}</span>
+            <span className="relative z-10">Book Your Session — {process.env.NEXT_PUBLIC_SESSION_PRICE_DISPLAY ?? '$75'}</span>
             <div className="absolute inset-0 bg-gradient-to-r from-roblox-red to-roblox-accent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
           </a>
           <a
             href="#learn"
             className="font-body text-white/60 hover:text-white text-base flex items-center gap-2 transition-colors"
           >
-            Learn more
+            See what&apos;s covered
             <span className="text-xl">↓</span>
           </a>
         </div>
@@ -53,9 +52,9 @@ export default function Hero() {
         {/* Social proof strip */}
         <div className="mt-16 flex items-center justify-center gap-8 flex-wrap">
           {[
-            { value: '150M+', label: 'Robux Earned' },
+            { value: '200+', label: 'Sessions Taught' },
+            { value: '4.9★', label: 'Average Rating' },
             { value: '50+', label: 'Games Shipped' },
-            { value: '100M+', label: 'Game Visits' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="font-display font-bold text-2xl text-white">{stat.value}</div>
