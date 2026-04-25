@@ -26,7 +26,7 @@ export default function Hero() {
         {/* Subheadline */}
         <p className="font-body text-lg md:text-xl text-white/60 max-w-2xl mx-auto mb-10 leading-relaxed">
           1-on-1 coaching for Roblox developers. Whether you&apos;re just starting with Lua or
-          trying to scale to 100K daily players — I&apos;ll help you get there faster.
+          trying to scale to 50,000 CCU — I&apos;ll help you get there faster.
         </p>
 
         {/* CTAs */}
@@ -52,9 +52,9 @@ export default function Hero() {
         {/* Social proof strip */}
         <div className="mt-16 flex items-center justify-center gap-8 flex-wrap">
           {[
-            { value: '200+', label: 'Sessions Taught' },
-            { value: '4.9★', label: 'Average Rating' },
+            { value: '250M+', label: 'Robux Earned' },
             { value: '50+', label: 'Games Shipped' },
+            { value: '200+', label: 'Sessions Taught' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="font-display font-bold text-2xl text-white">{stat.value}</div>

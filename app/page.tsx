@@ -14,8 +14,8 @@ export default function Home() {
     <main className="relative">
       <Nav />
       <Hero />
-      <Stats />
       <WhatYouLearn />
+      <Stats />
       <About />
       <Pricing />
       <Testimonials />

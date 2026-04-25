@@ -1,16 +1,16 @@
 // components/Testimonials.tsx
 const testimonials = [
+//  {
+//    name: 'Alex R.',
+ //   handle: '@alexdev_rblx',
+//    text: 'I had spaghetti code everywhere. After one session my DataStore architecture was completely refactored and I finally understand how to structure a real project. 10/10.',
+//    game: 'Tower Defense Simulator Clone',
+//    rating: 5,
+//  },
   {
-    name: 'Alex R.',
-    handle: '@alexdev_rblx',
-    text: 'I had spaghetti code everywhere. After one session my DataStore architecture was completely refactored and I finally understand how to structure a real project. 10/10.',
-    game: 'Tower Defense Simulator Clone',
-    rating: 5,
-  },
-  {
-    name: 'Maya K.',
-    handle: '@mayabuilds',
-    text: 'Went from 200 daily players to 8,000 in 3 weeks after implementing the SEO and thumbnail tips. The ROI on this session was insane.',
+    name: 'Kieran M.',
+    handle: '@RequiredModule',
+    text: 'Went from 200 daily players to 80,000 in 3 weeks after implementing the tips. The ROI on this session was insane.',
     game: 'Roleplay City',
     rating: 5,
   },
@@ -28,20 +28,20 @@ const testimonials = [
     game: 'Fantasy RPG',
     rating: 5,
   },
-  {
-    name: 'Chris P.',
-    handle: '@cpgamestudio',
-    text: 'The game design advice alone was worth it. I had features players didn\'t care about and was missing the ones that drive retention. Total game changer.',
-    game: 'Racing World',
-    rating: 5,
-  },
-  {
-    name: 'Riley M.',
-    handle: '@rileymakesgames',
-    text: 'Honest, no-BS feedback on my game. Told me exactly what wasn\'t working and why. Booked a second session the same day.',
-    game: 'Simulator Game',
-    rating: 5,
-  },
+ // {
+ //   name: 'Chris P.',
+ //   handle: '@cpgamestudio',
+  //  text: 'The game design advice alone was worth it. I had features players didn\'t care about and was missing the ones that drive retention. Total game changer.',
+  //  game: 'Racing World',
+  //  rating: 5,
+ // },
+  //{
+ //   name: 'Riley M.',
+  //  handle: '@rileymakesgames',
+ //   text: 'Honest, no-BS feedback on my game. Told me exactly what wasn\'t working and why. Booked a second session the same day.',
+ //   game: 'Simulator Game',
+ //   rating: 5,
+ // },
 ]
 
 export default function Testimonials() {
@@ -91,7 +91,7 @@ export default function Testimonials() {
                 </div>
                 <div>
                   <div className="font-body font-medium text-sm text-white">{t.name}</div>
-                  <div className="font-mono text-xs text-white/30">{t.game}</div>
+                  <div className="font-mono text-xs text-white/30">{t.handle}</div>
                 </div>
               </div>
             </div>

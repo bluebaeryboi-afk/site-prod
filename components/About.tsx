@@ -47,12 +47,12 @@ export default function About() {
             </h2>
             <div className="space-y-4 font-body text-white/60 leading-relaxed">
               <p>
-                I&apos;ve been building on Roblox since [year]. In that time I&apos;ve shipped [X] games,
-                reached [Y] peak players, and generated real Robux revenue from my work.
+                I&apos;ve been building on Roblox since 2024. In that time I&apos;ve shipped over 50 games,
+                reached 7500 CCU, and generated 150M+ Robux revenue from my work.
               </p>
               <p>
                 I&apos;ve made every mistake in the book — spaghetti code that crashed at 100 players,
-                games that launched to crickets, monetization that felt predatory. I fixed all of it,
+                games that launched to crickets, monetization that fell flat. I fixed all of it,
                 and now I teach developers how to skip that painful part.
               </p>
               <p>
@@ -65,11 +65,11 @@ export default function About() {
             <div className="mt-8 grid grid-cols-2 gap-3">
               {[
                 'Roblox Studio Expert',
-                'Lua & TypeScript',
+                'Proven Lua Modules',
                 'DataStore Architecture',
                 'Monetization Strategy',
                 'Game Design Systems',
-                'Published [X] Games',
+                'Published 50+ Games',
               ].map((cred) => (
                 <div key={cred} className="flex items-center gap-2 font-body text-sm text-white/60">
                   <span className="text-roblox-neon text-glow-neon">✓</span>

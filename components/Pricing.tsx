@@ -48,9 +48,9 @@ export default function Pricing() {
                 >
                   Book Now — {price}
                 </a>
-                <p className="font-mono text-xs text-white/30 text-center mt-3">
+                {/* <p className="font-mono text-xs text-white/30 text-center mt-3">
                   Takes 2 minutes · Powered by Tally
-                </p>
+                </p> */}
               </div>
 
               {/* Right: What's included */}
@@ -62,9 +62,8 @@ export default function Pricing() {
                   { icon: '🎯', text: 'Custom agenda — you set the topic' },
                   { icon: '🖥️', text: 'Live screen-share via Discord/Zoom' },
                   { icon: '📝', text: 'Written session notes sent afterwards' },
-                  { icon: '💬', text: '24hr follow-up Q&A via Discord' },
+                  { icon: '💬', text: 'Follow-up Q&A via Discord' },
                   { icon: '🔁', text: 'Easy rescheduling (24hr notice)' },
-                  { icon: '🎁', text: 'Free 15-min discovery call first' },
                 ].map((item) => (
                   <div key={item.text} className="flex items-start gap-3">
                     <span className="text-lg mt-0.5">{item.icon}</span>
@@ -80,7 +79,7 @@ export default function Pricing() {
         <div className="mt-6 text-center">
           <p className="font-body text-sm text-white/40">
             Looking for ongoing mentorship?{' '}
-            <a href="mailto:you@example.com" className="text-roblox-accent hover:text-white transition-colors underline">
+            <a href="mailto:bluebaeryboi@gmail.com" className="text-roblox-accent hover:text-white transition-colors underline">
               Contact me about bundles →
             </a>
           </p>

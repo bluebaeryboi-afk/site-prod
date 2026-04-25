@@ -21,7 +21,7 @@ export default function Footer() {
             <a href="#about" className="hover:text-white transition-colors">About</a>
             <a href="#pricing" className="hover:text-white transition-colors">Pricing</a>
             <a href="#faq" className="hover:text-white transition-colors">FAQ</a>
-            <a href="mailto:you@example.com" className="hover:text-white transition-colors">Contact</a>
+            <a href="mailto:bluebaeryboi@gmail.com" className="hover:text-white transition-colors">Contact</a>
           </div>
 
           {/* CTA */}
